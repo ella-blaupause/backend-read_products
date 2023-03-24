@@ -4,7 +4,7 @@ export default function Comments({ reviews }) {
       <h3>Comments</h3>
       <ul>
         {reviews.map((review) => (
-          <li key={review._id}>
+          <li key={review.id}>
             <p>
               {review.rating}/5: {review.text}
             </p>
